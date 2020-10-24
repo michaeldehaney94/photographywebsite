@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-y: scroll;
+    
+}
+
+a {
+    text-decoration: none; /* used to remove the default color off of nav button*/
+    padding: 10px;
+    color: #808080;
+    font-weight: thin;
+}
+
+a:hover {
+    
+    color: #54123b; /* when the cursor hover over nav button the color appears */
+    text-decoration: none;
+}
+
+nav {
+float: left;
+padding-left: 100px; /* spaces out nav button */
+margin-top: 10px; /* used to create room at the top section of the nav buttons*/
+font-size: 15px;
+}
+
+.name {
+    text-align: right;
+    padding-right: 25px;
+}
+
+header {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #54123b;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.profile {
+ height: 320px;
+ width: 320px;
+ 
+}
+
+.about, h3 {
+    color: #54123b;
+    height: 20px ;
+    width: 500px;
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+    
+}
+
+p {
+    color: #000000;
+   font-size: 15px;
+   
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* footer section */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+ 
+
+.socialmedia { 
+    float: right;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+
+

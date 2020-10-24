@@ -1,0 +1,180 @@
+/* hex color scheme used:
+colorhunt.co color Palette 170794
+primary: #54123b
+secondary: #84142d
+accent: #c02739
+
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-y: scroll;
+    
+}
+
+.frame { /* used to create frame for image in the introduction section*/
+    height: 700px;
+    width: 1349px;
+    position: relative;
+   background-color: #54123b;
+   pointer-events: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: transform .2s; /*animation time limit for transform scale */
+}
+
+img:hover {
+    transform: scale(2.5);
+    /* used to change the scale of image */
+    /* hover to zoom to take a closer look at the details of photos */
+}
+
+a {
+    text-decoration: none; /* used to remove the default color off of nav button*/
+    padding: 10px;
+    color: #808080;
+    font-weight: thin;
+}
+
+a:hover {
+    color: #54123b; /* when the cursor hover over nav button the color appears */
+    text-decoration: none;
+}
+
+nav {
+float: left;
+padding-left: 100px; /* spaces out nav button */
+margin-top: 10px; /* used to create room at the top section of the nav buttons*/
+font-size: 15px;
+}
+
+.name {
+    text-align: right;
+    padding-right: 25px;
+}
+
+header {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #54123b;
+  
+}
+
+.img-caption { /* to create caption which is seen upon loading home page */ 
+    position: absolute;
+    bottom: 200px;
+    left: 800px;
+    color: #ffffff;
+    background-color: #c02739;
+    width: 400px;
+    height: 120px;
+    padding: 10px;
+    font-size: 18px;
+    opacity: 0.9px;
+    display: block;
+    text-align: center;
+    
+}
+
+.profile-img {
+width: 384px;
+height: 512px;
+padding-left: 120px; 
+pointer-events: none;
+}
+
+h2 {
+    color: #54123b;
+}
+
+.bio { /*bio section*/
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.introduce { /* bio heading style*/
+padding-left: 150px;
+padding-bottom: 30px;
+}
+
+.bio-caption { /*caption on bio page link*/
+    position: relative;
+    bottom: 535px;
+    left: 600px;
+    width: 500px;
+    display: inline-block;
+}
+
+.fullbio { /*design for the full bio button */
+position: relative;
+left: 400px;
+bottom: 450px;
+background-color: #c02739; /*accent color*/
+color: #ffffff;
+padding: 12px;
+border-radius: 5px;
+}
+
+.fullbio:hover { /*hover feature for bio button*/
+    background-color: #c02739;
+    color: #ffffff;
+}
+
+.galleryheading {
+    text-align: center;
+}
+
+.portfolio {
+    padding-left: 290px; 
+    padding-bottom: 150px;
+    
+}
+
+.photos1 { /* frame for digital photos */
+    height: 100px;
+    width: 150px;
+    display: flex;
+    padding: 8px;
+}
+
+
+
+.photos2 {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    padding: 8px;
+}
+
+.photos3 {
+    display: flex;
+    height: 129px;
+    width: 170px;
+    padding: 8px;
+}
+
+
+/* footer section */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #000000;
+
+}
+
+.socialmedia { 
+    float: right;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #54123b;
+}
+
+
+
